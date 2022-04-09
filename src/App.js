@@ -1,11 +1,9 @@
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import About from './components/About';
+import Account from './components/Account/Account';
 import Description from './components/Description';
-
 import MoiveApi from './components/MoiveApi';
-
-
+import './App.css';
 
 function App() {
   return (
@@ -13,12 +11,12 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<MoiveApi />} />
-          {/* <Route path='/About' element={<About />} /> */}
+          <Route path='/Account' element={< Account />} />
           <Route path='/Description' element={<Description />} />
-        
+
         </Routes>
 
-      
+
       </Router>
 
     </>

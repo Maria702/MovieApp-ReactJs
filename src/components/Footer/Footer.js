@@ -5,8 +5,7 @@ import FaceBookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-
-import '../App.css'
+import '../Footer/Footer.css'
 
 
 export const Footer = () => {
@@ -15,10 +14,11 @@ export const Footer = () => {
       {new Date().toLocaleTimeString()}
     </>
   )
-
   let boxStyle = {
     backgroundColor: "black",
-    bottom: '0px',
+    color: "white",
+    fontWeight: "bolder",
+    fontSize: "20px",
   }
   let gridStyle = {
     marginLeft: '20px',
@@ -29,52 +29,32 @@ export const Footer = () => {
     color: 'white',
 
   }
-  let myLink = {
-   fontSize: '20px',
-    color: 'white',
-    textDecoration: 'none',
-    float: 'right',
-    display: 'flex',
-    textAlign: 'center',
-    padding: '14px 16px',
-    fontFamily: 'Roboto, sans-serif',
-    fontWeight: 'bold',
-  }
-  
-
-
   return (
     <>
-
       <div>
         <Box style={boxStyle} sx={{ flexGrow: 1 }}>
-
           <Grid style={gridStyle} container>
             <Grid item xs={12} sm={4}>
-              <p>Upcoming Movies</p>
-              <p>History</p>
+              <p className='para'>  Upcoming Movies</p>
+              <p className='para'> History </p>
             </Grid>
             <Grid item xs={12} sm={4}>
-              <p>Services</p>
-              <p>Our Mission</p>
-             
+              <p className='para'>Services </p>
+              <p className='para'>Our Mission </p>
             </Grid>
             <Grid item xs={12} sm={4}>
-              <p>Privacy Policy</p>
+              <p className='para'>Privacy Policy  </p>
               <div style={iconStyle}>
-                <FaceBookIcon />
+                < FaceBookIcon />
                 <TwitterIcon />
                 <LinkedInIcon />
                 <InstagramIcon />
               </div>
               <div>
                 {tick}
-
               </div>
             </Grid>
-
           </Grid>
-
           <p className='copy-right'>Copyright © 2022</p>
         </Box>
       </div>

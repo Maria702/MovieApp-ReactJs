@@ -1,67 +1,36 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
- 
-  
 }
-.sub-head{
+
+.sub-head {
   /* background-color:  rgb(212, 57, 122); */
-  background-color:  rgb(0, 0, 0);
-
+  background-color: rgb(0, 0, 0);
 }
 
-.Main-heading{
- 
+.Main-heading {
   font-size: 2.5rem;
   font-weight: bold;
   color: #fff;
   text-shadow: 0px 0px 10px #000;
   text-align: center;
   justify-content: center;
-
 }
 
-.card{
- 
+.card {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 0px 10px #000;
-  
-
 }
-.card:hover{
+
+.card:hover {
   box-shadow: 0px 0px 10px rgb(255, 242, 253);
   transform: scale(1.0);
   background-color: beige;
 }
 
-/* 
-
-.card-body{
-  min-width: 100px;
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-  opacity: 0.9;
-
- 
-}
-.card-body:hover{
-  opacity: 0.9;
-  background-color: aliceblue;
-}
-
-.card-title{
-  font-size: 1.3rem;
-  font-weight: bold;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  color: purple ;
-
-}
-.card-overview{
+.card-overview {
   font-size: 1.1rem;
   color: #000;
   text-overflow: 2.5rem;
@@ -69,29 +38,6 @@
   white-space: nowrap;
 
 }
- */
- .card-overview{
-  font-size: 1.1rem;
-  color: #000;
-  text-overflow: 2.5rem;
-  overflow: hidden;
-  white-space: nowrap;
-
-}
-
-/* Footer */
-
-.copy-right{
-  background-color: #000;
-  justify-content: center;
-  text-align: center;
-  font-size: medium;
-  color: rgb(235, 43, 43);
-}
-
-
-
-/* Nav */
 
 .topnav {
   background-color: #333;
@@ -115,30 +61,22 @@
   color: black;
 }
 
-
-
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
 }
 
-input[type=text] {
-  width: 130px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: white;
-  float: right;
-  justify-content: center;
+
+/* Description */
+.Descrip-text {
   text-align: center;
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
+  justify-content: center;
+  color: rgb(235, 43, 43);
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
-input[type=text]:focus {
-  width: 100%;
+form {
+  padding-right: 10px;
+
 }

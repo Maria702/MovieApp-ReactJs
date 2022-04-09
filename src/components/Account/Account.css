@@ -1,0 +1,67 @@
+.Mycontainer {
+    color: rgb(72, 6, 87);
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50px;
+    padding: 16px;
+    background-color: #f9f9f9d2;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: rgb(255, 253, 253);
+    outline: rgb(116, 9, 126);
+    outline-offset: -2px;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: palevioletred;
+    color: #fff;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: rgb(81, 3, 78);
+    text-decoration-color: aliceblue;
+    text-decoration: none;
+}
+
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: palevioletred;
+    text-align: center;
+}
+
+.bg {
+    background-color: palevioletred
+}
